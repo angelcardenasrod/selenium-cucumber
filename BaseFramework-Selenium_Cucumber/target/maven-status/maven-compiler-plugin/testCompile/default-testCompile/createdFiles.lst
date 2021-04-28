@@ -1,4 +1,5 @@
-org\framework\SeleniumCucumber\StepsDefinitions\StepsDefinitions.class
 org\framework\SeleniumCucumber\Fuctions\CreateDriver.class
 org\framework\SeleniumCucumber\StepsDefinitions\Hooks.class
+org\framework\SeleniumCucumber\StepsDefinitions\StepsDefinitions.class
+org\framework\SeleniumCucumber\Fuctions\SeleniumFuctions.class
 org\framework\SeleniumCucumber\Fuctions\WebDriverFactory.class

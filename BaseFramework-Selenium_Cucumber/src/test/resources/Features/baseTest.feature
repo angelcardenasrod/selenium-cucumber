@@ -20,9 +20,8 @@ Feature: Title of your feature
   I want to use this template for my feature file
 
   @test
-  Scenario: Get Sites
+  Scenario: Register to spoty
     Given I am in app main site
-    
-	@Test
-	Scenario: Get Url
-		Given I go to site https://www.netflix.com/es/
+    Then I load the DOM Information spoty_sing_up.JSON
+    Then I do a click in element Email
+    And I set Email with text email_prueba@gmail.com
