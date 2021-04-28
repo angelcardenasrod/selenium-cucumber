@@ -18,7 +18,9 @@
 #Sample Feature Definition Template
 Feature: Title of your feature
   I want to use this template for my feature file
-
+  Background:
+    Given I set UserEmail value in Data Scenario
+  
   @test
   Scenario: Register to spoty
     Given I am in app main site
