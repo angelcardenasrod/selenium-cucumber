@@ -1,0 +1,42 @@
+{
+    "Logo": {
+        "GetFieldBy": "Xpath",
+        "ValueToFind": "//body/div[@id='__next']/main[1]/div[2]/div[1]/a[1]"
+    },
+    "Titulo": {
+        "GetFieldBy": "Xpath",
+        "ValueToFind": "[@id='__next']/main/div[2]/form/h2"
+    },
+    "Email": {
+        "GetFieldBy": "Xpath",
+        "ValueToFind": "//input[@id='email']"
+    },
+    "confirm email": {
+        "GetFieldBy": "Xpath",
+        "ValueToFind": "//input[@id='confirm']"
+    },
+    "create password": {
+        "GetFieldBy": "Xpath",
+        "ValueToFind": "//input[@id='password']"
+    },
+     "User name": {
+        "GetFieldBy": "Xpath",
+        "ValueToFind": "//input[@id='displayname']"
+    },
+     "Day birthday": {
+        "GetFieldBy": "Xpath",
+        "ValueToFind": "//input[@id='day']"
+    },
+     "Month birthday": {
+        "GetFieldBy": "Xpath",
+        "ValueToFind": "//select[@id='month']"
+    },
+     "Year birthday": {
+        "GetFieldBy": "Xpath",
+        "ValueToFind": "//input[@id='year']"
+    },
+     "button register": {
+        "GetFieldBy": "Xpath",
+        "ValueToFind": "//input[@id='year']"
+    }
+}
